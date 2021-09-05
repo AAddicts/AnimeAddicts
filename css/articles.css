@@ -65,11 +65,13 @@
     color: #FF2E63;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    text-decoration: underline 1px #08D9D6;
 }
 .links a:hover{
     margin: 35px;
     cursor: pointer;
     color: #08D9D6;
+    text-decoration: underline 1px #FF2E63;
 }
 
 @media screen and (max-width: 768px){
