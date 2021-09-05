@@ -74,6 +74,17 @@
     text-decoration: underline 1px #FF2E63;
 }
 
+.banner-img{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+.banner-img img{ 
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 15px #32e0c336;
+}
 @media screen and (max-width: 768px){
 
     .article-container{
