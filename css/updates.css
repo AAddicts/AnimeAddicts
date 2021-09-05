@@ -19,10 +19,13 @@ font-family: 'Raleway', sans-serif;
 
 /* global styling */
 
-img:not(.logo){
+img:not(.logo img){
     width: 100%;
 }
 
+.logo img{
+    height: 100px;
+}
 
 
 hr{
