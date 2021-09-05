@@ -75,8 +75,12 @@
 }
 
 .banner-img{
-    width: 70%;
-    display: block;
+    width: 100%;
+    /* center a flex */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* center a flex end*/
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
@@ -90,5 +94,11 @@
     .article-container{
         margin-top: 55%;
     }
+
+    .banner-img img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+      }
 
 }
